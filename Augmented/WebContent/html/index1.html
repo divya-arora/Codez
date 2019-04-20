@@ -1,0 +1,116 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome</title>
+<link rel="stylesheet" href="/Augmented/css/style1.css" />
+<link rel="stylesheet" href="/Augmented/css/stylesignup.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script src="/Augmented/js/jquery.min.js"></script>
+<script src="/Augmented/js/login.js"></script>
+<script src="/Augmented/js/modernizr.custom.js"></script>
+<!---tabs-->
+<script type="text/javascript" src="/Augmented/js/JFCore.js"></script>
+		<script type="text/javascript">
+			(function() {
+				JC.init({
+					domainKey: ''
+				});
+				})();
+		</script>
+</head>
+<body style="background-image: url('/Augmented/images/headern1.jpg');">
+<div class="wrap">
+<div class="main">
+	
+	<div class="nav">
+		
+		<div class="top-nav">
+				<ul class="menu2">
+					<li>
+						<a  class="nav-icon" href=""> </a>
+						<ul>
+							<li><a class="root-nav1" href="">Play Music</a></li>
+							<li><a class="root-nav2" href="">Goofie Glass</a></li>
+							<li><a class="root-nav3" href="">Find Face</a></li>
+							<li><a class="root-nav4" href="">Image Editor</a></li>
+						</ul>
+					</li>
+				</ul>
+		</div>
+		
+		<div class="text">
+			<h2>Welcome</h2>
+		</div>
+		
+			<div class="login_box">
+	    		   <div id="loginContainer">
+	                  	<a href="#" id="loginButton" class=""><span></span></a>               
+		                <div id="loginBox" style="display: none;">                
+		                    <form id="loginForm" action="/Augmented/Login" method="post"  autocomplete="on">	
+		                        <fieldset id="body">
+		                            <fieldset>
+		                            	<input type="text" required="required" name="username" id="username" placeholder="userid">
+		                                <input type="password" required="required" name="password" id="password" placeholder="password">
+		                            </fieldset>
+		                            <input type="submit" id="login" value="Sign in">
+		                            <label for="checkbox"><i><a href="">Lost Password ?</a></i></label>
+		                        </fieldset>
+		                    </form>
+		                </div>
+	              </div>
+	            <div class="clear"></div>
+	          </div>
+	          <div class="clear"></div>
+	           <!-- end_login_box -->
+		</div>
+		<!---end-nav---->
+	    <div class="clear"></div>
+	    <!---start-camera---->
+		<div class="camera">
+		<div class="image">
+			<a href="/Augmented/photo/index.html" target="_blank">
+			<img src="/Augmented/images/camera.png" alt="">		
+			<p>Take Photo</p>
+			</a>
+		</div>
+		</div>
+	    <div class="clear"> </div>
+	    
+		<div class="row">
+			<div class="grid_12 columns">
+				<div class="tab style-1">
+			    					<dl>
+			 			             	 <dd class="users"><a class="user" href="#userreg" >User</a></dd>
+			    						 <dd class="messages"><a class="msg" href="/Augmented/jsp/index.jsp">Guest</a></dd>
+			    					</dl>
+		    					<ul>
+		    						<li class="active">
+					    				<div class="form" id="userreg">
+					    				<form action="/Augmented/Registration" autocomplete="on" method="post" >	
+												<input type="text" class="textbox" required="required"  id="usernamesignup" name="usernamesignup" placeholder="userid">
+												<input type="password" required="required" class="textbox" id="passwordsignup" name="passwordsignup" placeholder="password">
+												<input type="submit" value="Create Account">
+									   </form>
+									    </div>
+									</li>
+		    						<li>
+		    							<div class="form">	
+		    							<form action="/Augmented/Registration"  autocomplete="on" method="post">		
+												<input type="text" required="required" class="textbox"  id="usernamesignup" name="usernamesignup" placeholder="userid">
+												<input type="password" class="textbox" required="required"  id="passwordsignup" name="passwordsignup" placeholder="password">
+												<input type="submit" value="Create Account">
+												</form>
+									    </div>
+									</li>	
+		    					</ul>
+				 </div>
+		   </div>            
+	   </div>	
+      
+</div>	
+</div>
+<div class="clear"> </div>
+</body>
+</html>

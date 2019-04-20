@@ -1,0 +1,77 @@
+
+
+
+
+.input-boxs{
+	font-family: 'Open Sans', sans-serif;
+}
+.input-box-grid{
+	width: 70%;
+	float: left;
+	margin-right: 1.5%;
+}
+.last-input-box-grid{
+	margin:0;
+}
+.input-box-grid input[type="text"],input[type="file"],textarea,select{
+	width: 81%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	outline: none;
+}
+	
+	.focused-input-white{
+	color: #222;
+	border: 1px solid #1ABC9C;
+}
+.input-box-grid-white input[type="text"],input[type="file"],textarea,select{
+	padding: 0.8em 1em;
+	margin: 0.4em 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+p,font,table,h1
+{
+font-size:1.2em;
+	color:#FFF;
+	font-family: 'caviar_dreamsregular';
+	margin:15px 15px;
+	display:block;
+    -webkit-transition: all .9s;
+	-moz-transition: all .9s;
+	-o-transition: all .9s;
+	-ms-transition: all .9s;
+	transition: all .9s;display:inline-block;
+	align:right;
+	}
+	.big-buttons-col1{
+	margin-right: 3%;
+}
+.big-buttons-col1:last-child{
+	margin:0;
+}
+.big-buttons-col1 li{
+	margin-bottom:0.5em;
+}
+	
+	.b-btnblue{
+	font-size: 1em;
+	background: #5D6A99;
+	color: #fff;
+	padding: 1em 0;
+	width:240px;
+	height:60%;
+	display: inline-block;
+	text-align: center;
+	font-weight: 400;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	box-shadow: 0 4px #3D4A79;
+	border:none;
+	outline:none;
+	cursor:pointer;
+}
+	
